@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task2938 {
+public class task292 {
     public static void main (String [] args){
         /*
         Задача №292. Максимум из двух чисел
