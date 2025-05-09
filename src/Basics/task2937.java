@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class task292 {
+public class task2937 {
     public static void main (String [] args){
         /*
         Напишите программу, которая считывает целое число и выводит текст, аналогичный приведенному в примере.

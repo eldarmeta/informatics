@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 public class task2943 {
@@ -20,14 +22,19 @@ public class task2943 {
 7
      */
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        int input = scanner.nextInt();
 
-        if(input.length() >= 2) {
-            char output = input.charAt(input.length() - 2);
-        System.out.println(output);}
-        else {
-            System.out.println(input);
-        }
+        input = Math.abs(input);
+        int tens = (input / 10) % 10;
+
+        System.out.println(tens);
+
+//        if(input.length() >= 2) {
+//            char output = input.charAt(input.length() - 2);
+//        System.out.println(output);}
+//        else {
+//            System.out.println(input);
+//        }
 
     }
 }
