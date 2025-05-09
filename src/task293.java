@@ -1,9 +1,6 @@
-package conditional_operators;
-
 import java.util.Scanner;
-
-public class task293 {
-    public static void main(String[] args) {
+    public class task293 {
+        public static void main(String[] args) {
         /* Задача №253. Високосный год
 Требуется определить, является ли данный год високосным.
 (Напомним, что год является високосным, если его номер кратен 4,
@@ -24,11 +21,16 @@ NO
 2000
 Выходные данные
 YES         */
-        Scanner scanner = new Scanner(System.in);
-        int year = scanner.nextInt();
+            Scanner scanner = new Scanner(System.in);
+            int year = scanner.nextInt();
 
-        if (year / 4){
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+                System.out.println("YES");
+            }else{
+                System.out.println("NO");
+            }
+scanner.close();
 
+            }
         }
-    }
-}
+
