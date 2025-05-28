@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task259 {
+public class shokolad {
     public static void main(String[] args) {
         /*Задача №258. Шоколадка
 Требуется определить, можно ли от шоколадки размером n × m долек отломить k долек,
