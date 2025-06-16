@@ -1,5 +1,6 @@
+package conoo;
 
-    public class LongestPalindrome {
+public class LongestPalindrome {
         public static void main(String[] args) {
             String s = "babad";
             System.out.println(longestPalindrome(s));

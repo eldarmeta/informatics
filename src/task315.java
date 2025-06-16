@@ -19,11 +19,11 @@ public class task315 {
         Scanner scanner = new Scanner(System.in);
 
         int input = scanner.nextInt();
-        int output = 0;
+        int output = 1;
 
         for (int i = 0; i <= input; i++) {
 
-                output = output + (i * i);
+                output = output * 2;
         }
         System.out.println(output);
 

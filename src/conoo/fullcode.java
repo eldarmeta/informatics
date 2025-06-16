@@ -1,3 +1,5 @@
+package conoo;
+
 import java.util.Scanner;
 
     public class fullcode {

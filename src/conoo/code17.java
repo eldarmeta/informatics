@@ -1,3 +1,5 @@
+package conoo;
+
 public class code17 {
         public static void main(String[] args) {
             // Массив имён студентов
